@@ -69,7 +69,13 @@ Der erste Schritt ist der Theatermodus. Es werden vorgefertigte Antworten aus Ge
 
 
 
+## HARDWARE Sim1 Version 0.1
 
+- Aufbau auf Entwicklungsbord
+- Servo Arm links
+- Servo Head Pan (Kopf drehen)
+- OLED Display 128x64, i2c-Anschluß
+- USB-Soundkarte für Sprachausgabe
 
 
 
