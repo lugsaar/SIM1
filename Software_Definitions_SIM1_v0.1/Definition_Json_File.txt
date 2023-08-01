@@ -1,0 +1,59 @@
+Koordinaten
+x-Achse in Blickrichtung nach vorn
+y-Achse in Blickrichtung nach links
+z-Achse nach oben
+
+Winkel
+rechte Hand Regel
+Beispiel: um die z-Achse von oben gesehen nach links positive Winkel
+
+Variablen
+count 			Zähler der Befehle
+timer			Wartezeit bis zum Ausführen eines Befehels, bei 0 gemeinsam mit vorhergehendem Befehl ausgeführt
+button 			Startknopf löst diesen Schritt aus, dabei wird timer ignoriert
+servoPan 		Kopf wird gedreht
+servoArmLeft 	linker Arm wir bewegt
+mouth 			speak = Sprechbewegung Mund,  smile = Lächeln
+
+
+Beispiel 
+{
+	{"count": 1, 		//erster Befehl
+	 "timer": 0, 		//Ausführung nach 0 sec
+	 "button": 1, 		//Start mit Startknopf
+	 "servoPan":-30,	//Kopf auf -30 Grad drehen
+	 "servoArmLeft": 30,//linken Arm auf 30 Grad stellen
+	 "mouth": speak, 	//sprechende Mundbewegungen anzeigen
+	 "speakText": Initilasing startup sequence, //als Sprache ausgebener Text
+	 }
+	 
+	 {"count": 2, 		//zweiter Befehl
+	 "timer": 5, 		//Ausführung 5 sec nach vorhergehendem Befehl
+	 "button": 0, 		//Startknopf wird nicht beachtet
+	 "servoPan": 0,  	//Kopf auf 0 Grad drehen
+	 "servoArmLeft": 40,//linken Arm auf 40 Grad stellen
+	 "mouth": speak, 	//sprechende Mundbewegungen anzeigen
+	 "speakText": Simone is ready, //als Sprache auszugebender Text
+	 }
+	 
+	 {"count": 3, 		//dritter Befehl
+	 "timer": 5, 		//Ausführung 5 sec nach vorhergehendem Befehl
+	 "button": 0, 		//Startknopf wird nicht beachtet
+	 "servoPan": 0,	    //Kopf auf 0 Grad drehen
+	 "servoArmLeft": 30,//linken Arm auf 30 Grad stellen
+	 "mouth": smile, 	//lächeln
+	 "speakText": ,     //kein Text
+	 }
+	 
+	 {"count": 4, 		//vierter Befehl
+	 "timer": 5, 		//keine Ausführung da button 1
+	 "button": 1, 		//Startknopf abwarten
+	 "servoPan": 30,	//Kopf auf 30 Grad drehen
+	 "servoArmLeft": 30,//linken Arm auf 30 Grad stellen
+	 "mouth": speak, 	//sprechende Mundbewegungen anzeigen
+	 "speakText": Do you have a topic to solve for me //als Sprache auszugebender Text
+	 }
+}
+	 
+	
+
