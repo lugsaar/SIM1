@@ -1,0 +1,17 @@
+Darstellung der Sprachausgabe auf einem Display
+
+OLED 128 x 64 px
+
+mouthspeak(t)
+t ist die Dauer der Animation in Sekunden.
+
+Es werden Balken in ihrer Höhe animiert. 
+Bereiche siehe mouthspeak.jpg
+Beispiel: im Bereich 4 gibt es 4 separate, ausgefüllte Balken, je 4 px breit und zwischen 28 und 32 px nach unten und oben lang.
+Die Höhe wird per Zufall festgelegt, und nach einer Zeitspanne von 250 ms neu definiert.
+Bereich 1 und 7 sind nicht animiert. 
+
+
+mouthsmile(t)
+t ist die Dauer in Sekunden
+Es wird ein symetrisch angeordneter, ausgefüllter Balken 128 x 20 (je 10 px nach oben und unten) angezeigt.
