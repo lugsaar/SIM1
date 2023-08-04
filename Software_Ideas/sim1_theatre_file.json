@@ -1,0 +1,36 @@
+{"chunks": [
+	{"count": 1, 		
+	 "timer": 0, 		
+	 "button": 1, 		
+	 "servoPan":-30,	
+	 "servoArmLeft": 30,
+	 "mouth": "speak", 	
+	 "speakText": "Initilasing startup sequence"
+	},
+	{"count": 2, 		
+	 "timer": 5, 		
+	 "button": 0, 		
+	 "servoPan": 0,  	
+	 "servoArmLeft": 40,
+	 "mouth": "speak", 	
+	 "speakText": "Simone is ready"
+	},	 
+	{"count": 3, 		
+	 "timer": 5, 		
+	 "button": 0, 		
+	 "servoPan": 0,	    
+	 "servoArmLeft": 30,
+	 "mouth": "smile", 	
+	 "speakText": ""     
+	 },	 
+	 {"count": 4, 		
+	 "timer": 5, 		
+	 "button": 1, 		
+	 "servoPan": 30,	
+	 "servoArmLeft": 30,
+	 "mouth": "speak", 	
+	 "speakText": "Do you have a topic to solve for me"
+	 } 
+	 ]
+}
+
