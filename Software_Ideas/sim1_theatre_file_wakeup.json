@@ -1,0 +1,68 @@
+{"chunks": [
+	{"count": 1, 		
+	 "timer": 2, 		
+	 "button": 1, 		
+	 "servoPan":20,	
+	 "servoArmLeft": 20,
+	 "mouth": "speak", 	
+	 "speakText": "Initilasing startup sequence"
+	},
+	{"count": 2, 		
+	 "timer": 2, 		
+	 "button": 0, 		
+	 "servoPan": 25,  	
+	 "servoArmLeft": -5,
+	 "mouth": "speak", 	
+	 "speakText": "Simone is ready"
+	},	 
+	{"count": 3, 		
+	 "timer": 4, 		
+	 "button": 0, 		
+	 "servoPan": 30,	    
+	 "servoArmLeft": 40,
+	 "mouth": "speak", 	
+	 "speakText": "Hello World"     
+	 },	 
+	 {"count": 4, 		
+	 "timer": 2, 		
+	 "button": 1, 		
+	 "servoPan": 30,	
+	 "servoArmLeft": -30,
+	 "mouth": "smile", 	
+	 "speakText": ""
+	 }, 
+	  {"count": 5, 		
+	 "timer": 3, 		
+	 "button": 1, 		
+	 "servoPan": -30,	
+	 "servoArmLeft": -30,
+	 "mouth": "speak", 	
+	 "speakText": "Hello mancas"
+	 }, 
+	  {"count": 6, 		
+	 "timer": 6, 		
+	 "button": 1, 		
+	 "servoPan": 30,	
+	 "servoArmLeft": -10,
+	 "mouth": "speak", 	
+	 "speakText": "I can wave with my left arm and can turn my head, feeling fine."
+	 },
+	 {"count": 7, 		
+	 "timer": 2, 		
+	 "button": 1, 		
+	 "servoPan": -30,	
+	 "servoArmLeft": -10,
+	 "mouth": "speak", 	
+	 "speakText": "Let's talk a little bit. Let's make a podcast. "
+	 },  
+	 {"count": 8, 		
+	 "timer": 2, 		
+	 "button": 1, 		
+	 "servoPan": 0,	
+	 "servoArmLeft": 0,
+	 "mouth": "smile", 	
+	 "speakText": ""
+	 }  
+	 ]
+}
+
